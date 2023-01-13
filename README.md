@@ -12,7 +12,7 @@ Live Link  : [magic blogg](https://magic-blogg.up.railway.app/)
 - give your title
 - blog copy functionality
 
-# lnguages and tools used
+# languages and tools used
 - html
 - css
 - javascript
