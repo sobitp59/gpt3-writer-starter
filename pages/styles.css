@@ -172,7 +172,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(133, 18, 255);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -280,6 +280,7 @@ textarea {
     overflow: hidden;
     position: relative;
     width: 100%;
+    margin-top: 40px;
 }
 
 .output-header-container {
@@ -318,13 +319,32 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-top: 10px;
+    
 }
 
 .output-content p {
-    text-align: center;
+    text-align: left;
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.5);
 }
+
+.copy{
+    width: 80px;
+    padding: 8px;
+    border-radius: 55px;
+    color: rgba(144, 144, 144, 0.833);
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
 
 @media (min-width: 810px) and (max-width: 1199px) {
     .container {
@@ -341,6 +361,8 @@ textarea {
         width: 100%;
     }
 }
+
+
 
 @media (max-width: 809px) {
     .container {
